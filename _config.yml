@@ -1,11 +1,11 @@
 # Site settings
-title: Hanuman
-description: Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.
+title: Portforlio
+description: 신이룸의 포트폴리오입니다.
 cover: assets/images/radhakrishna.jpg
 logo: assets/images/logo.png
 favicon: assets/images/favicon.png
-baseurl: "/hanuman/" # the subpath of your site, e.g. /blog/ or / for root
-url: "https://samanyougarg.com" # the base hostname & protocol for your site
+baseurl: "/SLR_portfolio/" # the subpath of your site, e.g. /blog/ or / for root
+url: "https://dlfna1111.github.io/SLR_portfolio/#content" # the base hostname & protocol for your site
 
 pagination:
 
