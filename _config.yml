@@ -47,13 +47,13 @@ plugins:
 # Settings for rake task
 safe: False
 lsi: False
-username: samanyougarg #github username
-repo: hanuman #github repository
+username: 신이룸 #github username
+repo: SLR_portfolio #github repository
 branch: master #branch
-relative_source: ../hanuman/ #source directory
+relative_source: ../gitpage/ #source directory
 destination: ../hanuman-pages/ #destination directory
-production_url:  https://samanyougarg.com/
-source_url:  https://github.com/samanyougarg/hanuman #source repository url
+production_url:  https://dlfna1111.github.io/SLR_portfolio/
+source_url:  C:\Users\EloomShin\gitpage #source repository url
 
 exclude:
   - README.md
