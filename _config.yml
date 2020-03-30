@@ -3,7 +3,7 @@ title: 신이룸의 포트폴리오입니다.
 description: tdf5335@naver.com <br> 010-5768-2494
 cover: assets/images/radhakrishna.jpg
 logo: assets/images/logo.png
-favicon: assets/images/favicon.png
+favicon: assets/images/cat.jpg
 baseurl: "/SLR_portfolio/" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://dlfna1111.github.io/SLR_portfolio/#content" # the base hostname & protocol for your site
 
