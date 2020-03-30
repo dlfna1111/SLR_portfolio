@@ -5,7 +5,7 @@ cover: assets/images/radhakrishna.jpg
 logo: assets/images/logo.png
 favicon: assets/images/favicon.png
 baseurl: "/SLR_portfolio/" # the subpath of your site, e.g. /blog/ or / for root
-url: "https://samanyougarg.com" # the base hostname & protocol for your site
+url: "https://dlfna1111.github.io/SLR_portfolio" # the base hostname & protocol for your site
 
 pagination:
 
@@ -52,7 +52,7 @@ repo: SLR_portfolio #github repository
 branch: master #branch
 relative_source: ../SLR_portfolio/ #source directory
 destination: ../hanuman-pages/ #destination directory
-production_url:  https://samanyougarg.com/
+production_url:  https://dlfna1111.github.io/SLR_portfolio
 source_url:  https://dlfna1111.github.io/SLR_portfolio #source repository url
 
 exclude:
