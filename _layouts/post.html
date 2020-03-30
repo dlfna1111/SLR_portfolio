@@ -21,7 +21,7 @@ layout: default
         </h2>
       </header>
       <footer class="absolute left-0 right-0 bottom-0">
-        <a class="ampstart-readmore py3 caps line-height-2 text-decoration-none center block h5" href="#content"><span class="ampstart-readmore-text px1">Read more</span></a>
+        <a class="ampstart-readmore py3 caps line-height-2 text-decoration-none center block h5" href="#content"><span class="ampstart-readmore-text px1">더보기</span></a>
       </footer>
     </figcaption>
   </figure>
@@ -118,7 +118,7 @@ layout: default
                               {{ post.content | strip_html | truncatewords:15 }}
                             {% endif %}
                             </p>
-                            <a href="{{ site.baseurl }}{{ post.url | remove: '/' }}" class="ampstart-rekated-article-readmore block text-decoration-none ampstart-label">Read more</a>
+                            <a href="{{ site.baseurl }}{{ post.url | remove: '/' }}" class="ampstart-rekated-article-readmore block text-decoration-none ampstart-label">더보기</a>
                           {% endif %}
                         {% endif %}
                       {% endif %}
