@@ -193,6 +193,7 @@ body {
   text-align: center;
   padding: $rs * 1 0 0;
   font-size: $rs / 4 * 3;
+  color: #9EABB3;
   a {
     color: #999999;
     text-decoration: none;
@@ -236,7 +237,7 @@ body {
     padding: 0;
   }
   .author-image {
-    // background-image: url({{ site.baseurl }}{{site.author_image}});
+    background-image: url({{ site.baseurl }}{{site.author_image}});
     display: inline-block;
     width: 30px;
     height: 30px;

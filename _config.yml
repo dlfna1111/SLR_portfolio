@@ -28,7 +28,7 @@ contact: contact
 privacy-policy: privacy-policy
 
 
-permalink: /title
+permalink: /:title
 
 
 # Google Analytics
