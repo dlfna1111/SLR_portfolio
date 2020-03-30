@@ -72,18 +72,17 @@ pagination:
     {% if paginator.next_page %}
       <a class="newer-posts" href="{{ site.baseurl }}/page{{paginator.next_page}}">&larr; Older posts</a>
     {% else %}
-      <a class="newer-posts disabled">&larr; Older posts</a>
-    {% endif %}
-    <span class="page-number">aPage {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    {% if paginator.previous_page %}
-      {% if paginator.page == 2 %}
-        <a class="older-posts" href="{{ site.baseurl }}/">Newer posts &rarr;</a>
-      {% else %}
-        <a class="older-posts" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer posts &rarr;</a>
-      {% endif %}
-    {% else %}
-      <a class="older-posts disabled">Newer posts &rarr;</a>
-    {% endif %}
+
+    <div class="aboutMe">
+      <div style="display: inline-block; width: 40%; height: 400px;">
+
+      </div>
+      <div style="display: inline-block; width: 60%; height: 400px;">
+
+      </div>
+    </div>
+
+
 
     <div style="text-align: center;">
       <h1 style="text-decoration: underline;">My Skils</h1>
