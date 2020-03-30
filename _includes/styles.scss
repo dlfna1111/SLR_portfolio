@@ -236,7 +236,7 @@ body {
     padding: 0;
   }
   .author-image {
-    background-image: url({{ site.baseurl }}{{site.author_image}});
+    // background-image: url({{ site.baseurl }}{{site.author_image}});
     display: inline-block;
     width: 30px;
     height: 30px;
