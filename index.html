@@ -1,84 +1,18 @@
----
-layout: default
-pagination: 
-  enabled: true
----
 
-
-  <figure class="ampstart-image-fullpage-hero m0 relative mb4">
-    <amp-img width="404" height="720" alt="Cover" layout="responsive" src="{{ site.baseurl }}{{ site.cover }}" media="(max-width: 415px)"></amp-img>
-    <amp-img height="720" alt="Cover" layout="fixed-height" src="{{ site.baseurl }}{{ site.cover }}" media="(min-width: 416px)"></amp-img>
-    <figcaption class="absolute top-0 right-0 bottom-0 left-0">
-      <header class="p3">
-        <h1 class="ampstart-fullpage-hero-heading mb0 hanuman">
-          <span class="ampstart-fullpage-hero-heading-text title">
-            {{ site.title }}
-          </span>
-        </h1>
-        <h2 class="ampstart-fullpage-hero-heading mb0">
-          <span class="ampstart-fullpage-hero-heading-text description">
-            {{ site.description }}
-          </span>
-        </h2>
-    </header>
-    {% if site.cover %}
-    <footer class="absolute left-0 right-0 bottom-0">
-      <a class="ampstart-readmore py3 caps line-height-2 text-decoration-none center block h5" href="#content"><span class="ampstart-readmore-text px1">더보기</span></a>
-    </footer>
-    {% else %}
-    <footer class="absolute left-0 right-0 bottom-0">
-      <a class="ampstart-read py3 caps line-height-2 text-decoration-none center block h5" href="#content"><span class="ampstart-readmore-text px1">더보기</span></a>
-    </footer>
-    {% endif %}
-    </figcaption>
-  </figure>
-
-<main id="content" role="main" class="content">
-
-  <div class="cf frame">
-    {% for post in paginator.posts %}
-      <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-        <div class="article-item">
-          <header class="post-header">
-            <h2 class="post-title" itemprop="name"><a href="{{ site.baseurl }}{{ post.url | remove: '/'}}" itemprop="url">{{ post.title }}</a></h2>
-          </header>
-          <section class="post-excerpt" itemprop="description">
-            <p class="post-description">{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
-          </section>
-          <div class="post-meta">
-            {% for author in site.data.authors %}
-              {% if author[1].username == post.author %}
-                {% if author[1].assets %}<amp-img width="24" height="24" class="author-thumb" layout="responsive" src="{{ site.baseurl }}{{author[1].assets}}" alt="{{author[1].name}}"/></amp-img>{% endif %}
-                <!-- <a href="{{site.baseurl}}authors/#{{author[1].username}}">{{author[1].name}}</a> -->
-                SLR_portfolio
-              {% endif %}
-            {% endfor %}
-
-            {% if post.tags.size > 0 %}
-                in
-                {% for tag in post.tags %}
-                    {% if forloop.index == post.tags.size %}
-                       <a href='{{site.baseurl}}tags/#{{tag}}'>{{ tag | capitalize }}</a>
-                    {% else %}
-                       <a href='{{site.baseurl}}tags/#{{tag}}'>{{ tag | capitalize }}</a>,
-                    {% endif %}
-                {% endfor %}
-            {% endif %}
-              <time class="post-date" datetime="{{ post.date | date:'%Y-%m-%d' }}">{{ post.date | date_to_string }}</time>
-          </div>
-        </div>
-      </article>
-    {% endfor %}
-  </div>
-
-  <div class="pagination" role="navigation" style="text-align: center;">
-    <h3>Language</h3><br>
-    <h5>C#, JAVA, TypeScript, JavaScript</h5><br>
-      <br>
-    <h3>Web Skils</h3><br>
-    <h5>HTML, CSS, Jquery</h5><br>
-    <h3>FrameWork</h3><br>
-    <h5>Spring, Angular 6</h5>
+  <div style="text-align: center;">
+    <h1 style="text-decoration: underline;">My Skils</h1>
+    <div style="margin-bottom: 30px;">
+      <h3 style="margin: 0; color: rgb(190, 190, 190);">Language</h3>
+      <h2 style="margin: 0;">C#, JAVA, TypeScript, JavaScript</h2>
+    </div>
+    <div style="margin-bottom: 30px;">
+      <h3 style="margin: 0; color: rgb(190, 190, 190);">Web Skils</h3>
+      <h2 style="margin: 0;">HTML, CSS, Jquery</h2>
+    </div>
+    <div style="margin-bottom: 30px;">
+      <h3 style="margin: 0; color: rgb(190, 190, 190);">FrameWork</h3>
+      <h2 style="margin: 0;">Spring, Angular 6, Unity</h2>
+    </div>
   </div>
 
   <div style="background: rgb(226, 226, 226); text-align: center;">
@@ -87,19 +21,22 @@ pagination:
       <div style="display: inline-block; width: 300px; height: 300px; border: 1px solid black;">
 
       </div>
-      <div style="display: inline-block; width: 500px; height: 300px; border: 1px solid black;">
-
+      <div style="display: inline-block; width: 600px; height: 300px; border: 1px solid black;">
+        <h2>Share_B</h2><br>
+        <h3>개발기간 :2020.01.14~ 2020.3.29<br>
+          Trello, Jira 처럼 프로젝트를 체계적으로 수행에 도움을 주는 칸반보드 사이트이다.<br></h3>
+          
+        #Angular #Spring Framework #OraclDB #MyBatis <br>
       </div>
     </div>
     <div>
       <div style="display: inline-block; width: 300px; height: 300px; border: 1px solid black;">
 
       </div>
-      <div style="display: inline-block; width: 500px; height: 300px; border: 1px solid black;">
+      <div style="display: inline-block; width: 600px; height: 300px; border: 1px solid black;">
 
       </div>
     </div>
-    </div>
-</main>
+  </div>
 
-{% include footer.html %}
+
