@@ -1,90 +1,135 @@
 <title>SLR_portfolio</title>
-<head> 
-    <link rel="shortcut icon" type="image⁄x-icon" href="/SLR_portfolio/assets/images/facefavicon.png"> 
+
+<head>
+  <link rel="shortcut icon" type="image⁄x-icon" href="/SLR_portfolio/assets/images/facefavicon.png">
 </head>
 
 <style type="text/css">
- @import url('https://fonts.googleapis.com/css?family=Roboto:700');
-@keyframes showTopText {
-  0% { transform: translate3d(0, 100%, 0); }
-  40%, 60% { transform: translate3d(0, 50%, 0); }
-  100% { transform: translate3d(0, 0, 0); }
-}
-@keyframes showBottomText {
-  0% { transform: translate3d(0, -100%, 0); }
-  100% { transform: translate3d(0, 0, 0); }
-}
-.animated-title {
-  color: rgb(230, 230, 230);
-  font-family: Roboto, Arial, sans-serif;
-  height: 90vmin;
-  left: 50%;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 90vmin;
-}
-.animated-title > div {
-  height: 50%;
-  overflow: hidden;
-  position: absolute;
-  width: 100%;
-}
-.animated-title > div div {
-  font-size: 40px;
-  padding: 2vmin 0;
-  position: absolute;
-}
-.animated-title > div div span {
-  display: block;
-}
-.animated-title > div.text-top {
-  border-bottom: 1vmin solid rgb(253, 253, 253);
-  top: 0;
-}
-.animated-title > div.text-top div {
-  animation: showTopText 1s;
-  animation-delay: 0.5s;
-  animation-fill-mode: forwards;
-  bottom: 0;
-  transform: translate(0, 100%);
-}
-.animated-title > div.text-top div span:first-child {
-  color: #ffffff;
-}
-.animated-title > div.text-bottom {
-  bottom: 0;
-}
-.animated-title > div.text-bottom div {
-  animation: showBottomText 0.5s;
-  animation-delay: 1.75s;
-  animation-fill-mode: forwards;
-  top: 0;
-  transform: translate(0, -100%);
-}
+  @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
-a { text-decoration: none;}
-a:link { color: rgb(0, 0, 0);}
-a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
-a:focus { text-decoration: none; }
-a:hover, a:active { text-decoration: none; }
+  @keyframes showTopText {
+    0% {
+      transform: translate3d(0, 100%, 0);
+    }
 
-.menuBtn{
-  display: inline-block;
-  float: right;
-  margin-right: 40px;
-  color: rgb(255, 255, 255);
-  font-size: 18px;
-  text-decoration: none;
-}
-.menuBtn a:link{
-  color: white;
-}
+    40%,
+    60% {
+      transform: translate3d(0, 50%, 0);
+    }
 
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  @keyframes showBottomText {
+    0% {
+      transform: translate3d(0, -100%, 0);
+    }
+
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .animated-title {
+    color: rgb(230, 230, 230);
+    font-family: Roboto, Arial, sans-serif;
+    height: 90vmin;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90vmin;
+  }
+
+  .animated-title>div {
+    height: 50%;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+  }
+
+  .animated-title>div div {
+    font-size: 40px;
+    padding: 2vmin 0;
+    position: absolute;
+  }
+
+  .animated-title>div div span {
+    display: block;
+  }
+
+  .animated-title>div.text-top {
+    border-bottom: 1vmin solid rgb(253, 253, 253);
+    top: 0;
+  }
+
+  .animated-title>div.text-top div {
+    animation: showTopText 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    bottom: 0;
+    transform: translate(0, 100%);
+  }
+
+  .animated-title>div.text-top div span:first-child {
+    color: #ffffff;
+  }
+
+  .animated-title>div.text-bottom {
+    bottom: 0;
+  }
+
+  .animated-title>div.text-bottom div {
+    animation: showBottomText 0.5s;
+    animation-delay: 1.75s;
+    animation-fill-mode: forwards;
+    top: 0;
+    transform: translate(0, -100%);
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:link {
+    color: rgb(0, 0, 0);
+  }
+
+  a:visited {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  a:focus {
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:active {
+    text-decoration: none;
+  }
+
+  .menuBtn {
+    display: inline-block;
+    float: right;
+    margin-right: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+  .menuBtn a:link {
+    color: white;
+  }
 </style>
 <header style="position: fixed; top: 0;left: 0; right: 0; z-index: 2; ">
-  <div style="border-radius: 0 0 0 50%; width: 34%; height: 42px; background: rgba(255, 194, 81, 0.815); text-align: center; padding-top: 10px; float: right;">
+  <div
+    style="border-radius: 0 0 0 20px; width: 34%; height: 42px; background: rgba(255, 194, 81, 0.815); text-align: center; padding-top: 10px; float: right;">
 
     <div class="menuBtn"><a href="#contact">Contact</a></div>
     <div class="menuBtn"><a href="#project">project</a></div>
@@ -93,40 +138,41 @@ a:hover, a:active { text-decoration: none; }
     <div class="menuBtn"><a href="#home">Home</a></div>
   </div>
 </header>
+
 <body id="home" style="margin:0; overflow-x: hidden;">
-  
+
   <div style="margin: 0; width: 100vw; height: 100vh; overflow: hidden; position: relative;">
-    <img src="/SLR_portfolio/assets/images/radhakrishna.jpg"
-    width="100%" height="100%"
-     alt="Cover" layout="fixed-height" media="(min-width: 416px)">
+    <img src="/SLR_portfolio/assets/images/radhakrishna.jpg" width="100%" height="100%" alt="Cover"
+      layout="fixed-height" media="(min-width: 416px)">
     <div class="animated-title">
-        <div class="text-top">
-          <div>
-            <span style="font-size: 60px; color: rgb(253, 253, 253);">
-              Developer
-            </span>
-            <span style="color: white;">
-              신이룸의 포트폴리오입니다.
-            </span>
-          </div>
+      <div class="text-top">
+        <div>
+          <span style="font-size: 60px; color: rgb(253, 253, 253);">
+            Developer
+          </span>
+          <span style="color: white;">
+            신이룸의 포트폴리오입니다.
+          </span>
         </div>
-        <div class="text-bottom">
-          <div style="color: white;">tdf5335@naver.com</div>
-        </div>
+      </div>
+      <div class="text-bottom">
+        <div style="color: white;">tdf5335@naver.com</div>
+      </div>
     </div>
   </div>
 
 
-<nav class="pagination" role="navigation">
+  <nav class="pagination" role="navigation">
 
 
-  <div id="aboutme" style="height:300px; background: white; padding-bottom: 30px; margin-bottom: 20px;">
-    <table style="width: 100%; height: 300px;">
-      <tr style="width: 800px; margin: 0;">
-        <td style="display: inline-block; width: 30%; height: 100%; margin: 0; padding-top: 100px; text-align: center; vertical-align: middle;">
+    <div id="aboutme" style="height:300px; background: white; padding-bottom: 30px; margin-bottom: 20px;">
+      <table style="width: 100%; height: 300px;">
+        <tr style="width: 800px; margin: 0;">
+          <td
+            style="display: inline-block; width: 30%; height: 100%; margin: 0; padding-top: 100px; text-align: center; vertical-align: middle;">
             <h1 style="text-decoration: underline;">About Me</h1>
-        </td>
-        <td style="display: inline-block; width: 50%;">
+          </td>
+          <td style="display: inline-block; width: 50%;">
             <div style="height: 300px; text-align: left; padding-top: 20px; overflow: hidden;">
               <h2>멈추지 않는 개발자</h2>
               어릴때 부터 호기심이 많은 성격에 만들어 보았던 간단한 계산기 프로그램으로 무언가를 만드는 것의 재미를 느끼게 되었고 그때부터 개발자를 꿈꾸게 되었습니다.
@@ -137,104 +183,104 @@ a:hover, a:active { text-decoration: none; }
               경력을 쌓은 개발자는 경력만 쌓이면 자연스럽게 되지만 '잘하는'개발자는 경력뿐만 아니라 매일 공부하여 개발자로써 더 높은 곳을 바라보고 있기 때문입니다 . 저는 계속 공부하여
               '잘하는'개발자로써 남고 싶습니다.
             </div>
-        </td>
-      </tr>
-    </table>
-  </div>
-
-  <div id="skils" style="text-align: center; background: rgb(247, 247, 247); padding: 20px 0;">
-    <h1 style="text-decoration: underline;">My Skils</h1>
-    <div style="margin-bottom: 30px;">
-      <h3 style="margin: 0; color: rgb(190, 190, 190);">Language</h3>
-      <h2 style="margin: 0;">C#, JAVA, TypeScript, JavaScript</h2>
+          </td>
+        </tr>
+      </table>
     </div>
-    <div style="margin-bottom: 30px;">
-      <h3 style="margin: 0; color: rgb(190, 190, 190);">Web Skils</h3>
-      <h2 style="margin: 0;">HTML, CSS, Jquery</h2>
+
+    <div id="skils" style="text-align: center; background: rgb(247, 247, 247); padding: 20px 0;">
+      <h1 style="text-decoration: underline;">My Skils</h1>
+      <div style="margin-bottom: 30px;">
+        <h3 style="margin: 0; color: rgb(190, 190, 190);">Language</h3>
+        <h2 style="margin: 0;">C#, JAVA, TypeScript, JavaScript</h2>
+      </div>
+      <div style="margin-bottom: 30px;">
+        <h3 style="margin: 0; color: rgb(190, 190, 190);">Web Skils</h3>
+        <h2 style="margin: 0;">HTML, CSS, Jquery</h2>
+      </div>
+      <div style="margin-bottom: 30px;">
+        <h3 style="margin: 0; color: rgb(190, 190, 190);">FrameWork</h3>
+        <h2 style="margin: 0;">Spring, Angular 6, Unity</h2>
+      </div>
     </div>
-    <div style="margin-bottom: 30px;">
-      <h3 style="margin: 0; color: rgb(190, 190, 190);">FrameWork</h3>
-      <h2 style="margin: 0;">Spring, Angular 6, Unity</h2>
-    </div>
-  </div>
 
-  <div id="project" style="background: rgb(255, 229, 229); text-align: center; padding-bottom: 40px;">
-    <h1 style="padding-top:20px; text-decoration: underline; margin-top: 0;">Project</h1><br>
-    <table style="margin: 0 0 30px 10%; background: white; width: 1200px;  box-shadow: 5px 5px 10px 5px gray;">
-      <tr style="width: 800px; margin: 0;">
-        <td style="display: inline-block; width: 30%; height: 100%; margin: 0; ">
-          <div style="border: 1px solidx black;">
-            <a href="https://github.com/dlfna1111/Share_B.git">
-              <div style="height: 300px;">
-  
-              </div>
-            </a>
-          </div>
-        </td>
-        <td style="display: inline-block; width: 50%;">
-          <div>
-            <div style="height: 300px; text-align: left; padding-top: 20px;">
+    <div id="project" style="background: rgb(255, 229, 229); text-align: center; padding-bottom: 40px;">
+      <h1 style="padding-top:20px; text-decoration: underline; margin-top: 0;">Project</h1><br>
+      <table style="margin: 0 0 30px 10%; background: white; width: 1200px;  box-shadow: 5px 5px 10px 5px gray;">
+        <tr style="width: 800px; margin: 0;">
+          <td style="display: inline-block; width: 30%; height: 100%; margin: 0; ">
+            <div style="border: 1px solidx black;">
+              <a href="https://github.com/dlfna1111/Share_B.git">
+                <div style="height: 300px;">
 
-              <h2>Share_B</h2>
-              <h3>개발기간 :2020.02.14~ 2020.3.29<br>
-                Trello, Jira 처럼 프로젝트를 체계적으로 수행에 도움을 주는 칸반보드 사이트이다.<br></h3>
-              <br><br>
-              #Jave #Spring #Agular #OraclDB #MyBatis <br>
-            </div>
-          </div>
-        </td>
-      </tr>
-    </table>
-
-    <table style="margin-left: 10%; width: 1200px; background: white; box-shadow: 5px 5px 10px 5px gray;">
-      <tr style="width: 800px; margin: 0;">
-        <td style="display: inline-block; width: 30%; height: 100%; margin: 0; padding: 10px;">
-            <a href="https://play.google.com/store/apps/details?id=com.LoomiLoomi.slr1to50to1">
-            <div>
-              <img src="/SLR_portfolio/assets/images/gameIcon1.png" width="100%" height="40%">
-            </div>
-          </a>
-        </td>
-        <td style="display: inline-block; width: 50%;">
-          <div>
-            <div style="height: 300px; text-align: left; padding-top: 20px;">
-
-              <h2>1 to 50 게임 어플</h2>
-              <h3>개발기간 :2019.09.20~ 2019.10.29<br>
-                1부터 50까지의 숫자를 순서대로 빠르게 눌러 시간 기록을 세우는 게임어플이다.<br></h3>
-              <br>
-              <br>
-              #Unity #C# <br><br>
-              <a href="https://play.google.com/store/apps/details?id=com.LoomiLoomi.slr1to50to1" style="text-decoration: none;">
-                사이트로 이동 (Click)
-                <div class="ampstart-icon ampstart-icon-github"></div>
+                </div>
               </a>
             </div>
-          </div>
-        </td>
-      </tr>
-    </table>
-  </div>
-</nav>
+          </td>
+          <td style="display: inline-block; width: 50%;">
+            <div>
+              <div style="height: 300px; text-align: left; padding-top: 20px;">
 
-<footer id="contact" class="ampstart-footer flex flex-column items-center px3" style="text-align: center; margin-bottom: 40px;">
+                <h2>Share_B</h2>
+                <h3>개발기간 :2020.02.14~ 2020.3.29</h3>
+                  <h4>Trello, Jira 처럼 프로젝트를 체계적으로 수행에 도움을 주는 칸반보드 사이트이다.</h4>
+                  <br>
+                <br><br>
+                #Jave #Spring #Agular #OraclDB #MyBatis <br>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
 
-  
-  <h1 style="padding-top:20px; text-decoration: underline; margin-top: 0;">Contact</h1>
-  <div style="font-size: 24px;">
+      <table style="margin-left: 10%; width: 1200px; background: white; box-shadow: 5px 5px 10px 5px gray;">
+        <tr style="width: 800px; margin: 0;">
+          <td style="display: inline-block; width: 30%; height: 100%; margin: 0; padding: 10px;">
+            <a href="https://play.google.com/store/apps/details?id=com.LoomiLoomi.slr1to50to1">
+              <div>
+                <img src="/SLR_portfolio/assets/images/gameIcon1.png" width="100%" height="40%">
+              </div>
+            </a>
+          </td>
+          <td style="display: inline-block; width: 50%;">
+            <div>
+              <div style="height: 300px; text-align: left; padding-top: 20px;">
 
-    <a href="https://dlfna1111.github.io/SLR_portfolio" style="text-decoration: none;">
-      <strong>신이룸</strong></a><br>
-    tdf5335@naver.com<br>
-    010-5768-2494<br>
-    
-    <a href="https://github.com/{{site.github}}" target="_blank" class="inline-block p1" aria-label="Link to AMP HTML github">
-        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 64 64">
-            <path d="M22.4 1.4C-.8 9-7.4 38.4 10.5 54.9 14.7 58.8 20.4 62 23 62c.5 0 1-1.6 1-3.5 0-3.3-.2-3.5-3.5-3.5-3.5 0-4.2-.5-9-6.6-4.4-5.6-2.3-6.2 3.2-.9 4.2 4 7.5 4.5 9.8 1.2 1.4-2.1 1.4-2.2-.7-3-6-2.3-8.8-4.2-10.2-7.2-2.1-4.3-2.1-12.4 0-15.3.8-1.2 1.2-2.7.9-3.2-1-1.6.5-7 1.8-7 .7 0 2.4.6 3.8 1.4 1.7.9 6 1.4 11.9 1.4s10.2-.5 11.9-1.4c1.4-.8 3.1-1.4 3.8-1.4 1.3 0 2.8 5.4 1.8 7-.3.5.1 2 .9 3.2 1.8 2.5 2.1 10.3.7 14.1-1.4 3.6-5 6.6-9.3 7.8-3.3.9-3.7 1.2-2.8 2.9.5 1 1 4.6 1 7.9 0 3.5.4 6.1 1 6.1 5.2 0 15.8-8.8 19.8-16.5 2.3-4.3 2.7-6.3 2.7-13.5 0-7-.4-9.4-2.4-13.5C57.9 12.2 51.8 6 45.6 3 39.6.2 28.5-.6 22.4 1.4z" class="ampstart-icon ampstart-icon-github" />
-        </svg>
-    </a>
-  </div>
-</footer>
+                <h2>1 to 50 게임 어플</h2>
+                <h3>개발기간 :2019.09.20~ 2019.10.29</h3>
+                  1부터 50까지의 숫자를 순서대로 빠르게 눌러 시간 기록을 세우는 게임어플이다.
+                <br>
+                <br>
+                <br>
+                #Unity #C# <br><br>
+                <a href="https://play.google.com/store/apps/details?id=com.LoomiLoomi.slr1to50to1"
+                  style="font-size: 14px;">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </nav>
+
+  <footer id="contact" class="ampstart-footer flex flex-column items-center px3"
+    style="text-align: center; margin-bottom: 40px;">
+
+
+    <h1 style="padding-top:20px; text-decoration: underline; margin-top: 0;">Contact</h1>
+    <div style="font-size: 24px;">
+
+      <strong>신이룸</strong><br>
+      tdf5335@naver.com<br>
+      010-5768-2494<br>
+
+      <a href="https://dlfna1111.github.io/SLR_portfolio">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </footer>
 
 
 
