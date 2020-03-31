@@ -1,7 +1,41 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+	<meta charset="UTF-8">
+  <title>Insert title here</title>
+  <link rel="stylesheet" href="../_sass/_syntax-highlighting.scss">
+		<script>
+			$(document).ready(function() {
+      $(".title").lettering();
+      $(".button").lettering();
+    });
 
-<body style="margin:0;">
+
+    $(document).ready(function() {
+      animation();
+    }, 1000);
+
+    $('.button').click(function() {
+      animation();
+    });
+
+
+function animation() {
+  var title1 = new TimelineMax();
+  title1.to(".button", 0, {visibility: 'hidden', opacity: 0})
+  title1.staggerFromTo(".title span", 0.5, 
+  {ease: Back.easeOut.config(1.7), opacity: 0, bottom: -80},
+  {ease: Back.easeOut.config(1.7), opacity: 1, bottom: 0}, 0.05);
+  title1.to(".button", 0.2, {visibility: 'visible' ,opacity: 1})
+}
+		</script>
+  </head>
   
-  <div style="margin: 0; width: 98.5vw; height: 100vh; overflow: hidden; position: relative;">
+
+
+<body style="margin:0; overflow: hidden;">
+  
+  <div style="margin: 0; width: 100vw; height: 100vh; overflow: hidden; position: relative;">
     <div style="width: 100%; height: 42px; background: orange; text-align: center; padding-top: 10px; position: absolute;">
       <strong style="font-size: 20px;">SLR_portfolio</strong>
     </div>
@@ -12,7 +46,7 @@
         <div style="font-size: 60px;">
           Portfolio
         </div>
-        <div class="title-container" style="font-size: 50px;">
+        <div class="title" style="font-size: 50px;">
           신이룸의 포트폴리오입니다.
         </div>
     </div>
@@ -81,7 +115,7 @@
               <h3>개발기간 :2020.02.14~ 2020.3.29<br>
                 Trello, Jira 처럼 프로젝트를 체계적으로 수행에 도움을 주는 칸반보드 사이트이다.<br></h3>
               <br>
-              #Angular #Spring Framework #OraclDB #MyBatis <br>
+              #Jave #Spring #Agular #OraclDB #MyBatis <br>
             </div>
           </div>
         </td>
@@ -94,7 +128,7 @@
           <div>
             <a href="https://play.google.com/store/apps/details?id=com.LoomiLoomi.slr1to50to1">
             <div style="height: 300px; ">
-              <img src="/SLR_portfolio/assets/images/gameIcon1.jpg">
+              <img src="/SLR_portfolio/assets/images/gameIcon1.png">
             </div>
           </a>
           </div>
@@ -139,3 +173,4 @@
 
 
 </body>
+</html>
