@@ -59,14 +59,29 @@
   transform: translate(0, -100%);
 }
 
+a { text-decoration: none;}
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+
+.menuBtn{
+  display: inline-block;
+  float: right;
+}
 </style>
-<header style="position: fixed; top: 0;left: 0; right: 0; ">
-  <div style="width: 100%; height: 42px; background: orange; text-align: center; padding-top: 10px; position: absolute;">
+<header style="position: fixed; top: 0;left: 0; right: 0; z-index: 2;">
+  <div style="width: 100%; height: 42px; background: rgb(255, 189, 66); text-align: center; padding-top: 10px;">
     <strong style="font-size: 20px;">SLR_portfolio</strong>
-    <a href="#skils">Skils</a>
+
+    <div class="menuBtn"><a href="#home">Home</a></div>
+    <div class="menuBtn"><a href="#aboutme">About</a></div>
+    <div class="menuBtn"><a href="#skils">Skils</a></div>
+    <div class="menuBtn"><a href="#project">project</a></div>
+    <div class="menuBtn"><a href="#contact">Contact</a></div>
   </div>
 </header>
-<body style="margin:0; overflow-x: hidden; padding-top: 42px;">
+<body id="home" style="margin:0; overflow-x: hidden; padding-top: 46px;">
   
   <div style="margin: 0; width: 100vw; height: 100vh; overflow: hidden; position: relative;">
     <img src="/SLR_portfolio/assets/images/radhakrishna.jpg"
@@ -75,7 +90,7 @@
     <div class="animated-title">
         <div class="text-top">
           <div>
-            <span style="font-size: 60px;">
+            <span style="font-size: 60px; color: white;">
               Developer
             </span>
             <span>
