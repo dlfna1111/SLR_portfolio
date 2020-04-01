@@ -7,33 +7,28 @@
 Spring과 다른 프론트엔드 Framework를 연결해 구축하는 방법을 공부하기 위함으로 선택하였습니다.<br>
 
 
-
-It is built using the open source [AMP Start framework](https://www.ampstart.com/) and can be customized as per your requirements.
-
-<a href="https://www.buymeacoffee.com/samanyougarg"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" target="_blank"></a>
-
 ## 목차
-## [Hanuman](https://samanyougarg.com/hanuman)
-![Hanuman](/Screenshots/hanuman.jpg "Hanuman Preview")
+- 실제 사용해보기
+-- 로그인 페이지
+1. 회원 가입
+2. 비밀번호 찾기
+3. 로그인
+-- 마이 페이지
+1. 정보 수정
+2. 프로젝트 생성
+3. 즐겨찾기, 나가기
+-- 프로젝트 페이지
+1. 팀원 초대
+2. 보드 생성, 메모 생성, 메모 상세보기
+3. 메모 드래그 앤드 드롭
+4. 파일 보관함
+5. 프로젝트 배경 바꾸기
+
+- 사용 언어 및 framework
+- 끝으로
 
 
-## Features
-
-- Minimal
-- Responsive
-- Syntax Highlighting for code
-- Cover Images for homepage and blog posts
-- Social Sharing
-- Simple Navigation Menu
-- Pagination
-- Google Analytics
-- Can be easily installed via "theme gem"
-- Github Pages support
-- Easily Customisable
-- Tags
-- Multiple Authors
-
-## What is AMP
+## 실제 사용기
 
 AMP stands for [Accelerated Mobile Pages](https://www.ampproject.org/), a Google-backed project designed as an open standard for any publisher to have pages load quickly on mobile devices.
 
@@ -174,7 +169,3 @@ To submit a pull request -
 
 ## Thanks
 Hanuman is based on [amplify](https://github.com/ageitgey/amplify) jekyll theme. Thank You.
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
