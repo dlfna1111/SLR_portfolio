@@ -37,6 +37,11 @@ Spring과 다른 프론트엔드 Framework를 연결해 구축하는 방법을 �
 - [끝으로](#끝)
 
 
+
+
+
+
+
 ## 채팅
 ![채팅](https://user-images.githubusercontent.com/58598810/78499974-d290fc80-778e-11ea-97b0-a4c47825d50e.gif)
 - 단체 채팅
@@ -55,22 +60,31 @@ Spring과 다른 프론트엔드 Framework를 연결해 구축하는 방법을 �
 ## 마이 페이지
 ![개인정보 변경](https://user-images.githubusercontent.com/58598810/78500047-459a7300-778f-11ea-9351-acf431248f95.gif)
 - 개인정보 수정
+![프로젝트생성](https://user-images.githubusercontent.com/58598810/78502424-1f2f0480-779c-11ea-867f-562630091417.gif)
+- 프로젝트 생성, 나가기
 
 
 ## 프로젝트 페이지
+![메모상세창](https://user-images.githubusercontent.com/58598810/78502473-4be31c00-779c-11ea-9577-b0738e790faa.gif)
+- 메모 상세창
+  - 북마크
+  - 상세 내용
+  - 체크리스트
+  - 댓글
+![보드메모123](https://user-images.githubusercontent.com/58598810/78502625-fb1ff300-779c-11ea-9ab9-f2a793d7dbdd.gif)
+- 보드 생성, 삭제
+- 메모 드래그&드롭, 생성, 삭제
+
+
 ## 부가 메뉴
-## 사용 언어, 프레임워크
-## 끝으로
+![초대강퇴배경변경](https://user-images.githubusercontent.com/58598810/78502700-53ef8b80-779d-11ea-8272-9a0558e6bab4.gif)
+- 프로젝트 초대, 강퇴
+- 배경 설정
+![파일보관함2](https://user-images.githubusercontent.com/58598810/78502762-9e710800-779d-11ea-9a59-9740d954f324.gif)
+- 파일 다중 업로드, 다중 다운로드
+- 드래그&드롭 업로드, 업로드 창에서 삭제
+- 파일 삭제
 
-AMP stands for [Accelerated Mobile Pages](https://www.ampproject.org/), a Google-backed project designed as an open standard for any publisher to have pages load quickly on mobile devices.
 
-## Installation
-![파일보관함](https://user-images.githubusercontent.com/58598810/78470541-53d39980-7765-11ea-8a87-332eaf4bf3f1.gif)
 
-1. Fork/clone the repository.
-2. Develop.
-3. Create a new branch from the master branch.
-4. Open a pull request on Github describing what was fixed or added.
-
-## Thanks
-Hanuman is based on [amplify](https://github.com/ageitgey/amplify) jekyll theme. Thank You.
+## 
