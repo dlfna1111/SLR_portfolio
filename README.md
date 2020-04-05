@@ -10,7 +10,7 @@ Spring과 다른 프론트엔드 Framework를 연결해 구축하는 방법을 �
 ## 목차
 <실제 사용해보기>
 - 로그인 페이지
-  - 회원 가입(#회원-가입)
+  - 회원 가입(#Sign-UP)
 2. 비밀번호 찾기
 3. 로그인
 - 마이 페이지
@@ -28,7 +28,7 @@ Spring과 다른 프론트엔드 Framework를 연결해 구축하는 방법을 �
 - 끝으로
 
 
-## 회원 가입
+## Sign UP
 
 AMP stands for [Accelerated Mobile Pages](https://www.ampproject.org/), a Google-backed project designed as an open standard for any publisher to have pages load quickly on mobile devices.
 
