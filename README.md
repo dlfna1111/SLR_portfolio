@@ -5,7 +5,8 @@
 프로젝트 진행중 발생하는 모든 이슈와 팀원들의 업무, 진행상태가 어떠한지도 한 눈에 볼 수있도록 되어 있습니다.<br>
 포트폴리오로 칸반보드를 선택한 이유는 프론트엔드에 적합한 Angular를 효과적으로 활용해보기 위함이었고, <br>
 Spring과 다른 프론트엔드 Framework를 연결해 구축하는 방법을 공부하기 위함으로 선택하였습니다.<br>
-
+<br>
+<br>
 
 ## 기능
 - [채팅](#채팅)
@@ -36,18 +37,16 @@ Spring과 다른 프론트엔드 Framework를 연결해 구축하는 방법을 �
   - [CSS/HTML](#디자인)
 - [끝으로](#끝)
 
-
-
-
-
-
+<br>
+<br>
 
 ## 채팅
 ![채팅](https://user-images.githubusercontent.com/58598810/78499974-d290fc80-778e-11ea-97b0-a4c47825d50e.gif)
 - 단체 채팅
 - 채팅방 생성/ 나가기
 - 알람
-
+<br>
+<br>
 
 ## 로그인 페이지
 ![ezgif com-crop](https://user-images.githubusercontent.com/58598810/78500038-31567600-778f-11ea-87f3-1ac3716b92fc.gif)
@@ -55,14 +54,16 @@ Spring과 다른 프론트엔드 Framework를 연결해 구축하는 방법을 �
 - 회원가입 이메일 인증
 - 비밀번호 찾기
 - Share_B/구글 로그인
-
+<br>
+<br>
 
 ## 마이 페이지
 ![개인정보 변경](https://user-images.githubusercontent.com/58598810/78500047-459a7300-778f-11ea-9351-acf431248f95.gif)
-- 개인정보 수정
+- 개인정보 수정<br>
 ![프로젝트생성](https://user-images.githubusercontent.com/58598810/78502424-1f2f0480-779c-11ea-867f-562630091417.gif)
 - 프로젝트 생성, 나가기
-
+<br>
+<br>
 
 ## 프로젝트 페이지
 ![메모상세창](https://user-images.githubusercontent.com/58598810/78502473-4be31c00-779c-11ea-9577-b0738e790faa.gif)
@@ -71,20 +72,23 @@ Spring과 다른 프론트엔드 Framework를 연결해 구축하는 방법을 �
   - 상세 내용
   - 체크리스트
   - 댓글
+  <br>
 ![보드메모123](https://user-images.githubusercontent.com/58598810/78502625-fb1ff300-779c-11ea-9ab9-f2a793d7dbdd.gif)
 - 보드 생성, 삭제
 - 메모 드래그&드롭, 생성, 삭제
 
-
+<br>
+<br>
 ## 부가 메뉴
 ![초대강퇴배경변경](https://user-images.githubusercontent.com/58598810/78502700-53ef8b80-779d-11ea-8272-9a0558e6bab4.gif)
 - 프로젝트 초대, 강퇴
-- 배경 설정
+- 배경 설정<br>
 ![파일보관함2](https://user-images.githubusercontent.com/58598810/78502762-9e710800-779d-11ea-9a59-9740d954f324.gif)
 - 파일 다중 업로드, 다중 다운로드
 - 드래그&드롭 업로드, 업로드 창에서 삭제
 - 파일 삭제
 
+<br>
+<br>
 
-
-## 
+## Thanks
