@@ -114,19 +114,7 @@ Update _config.yml with your respective settings like updating your site's name,
 AMP has a limitation that you can only use inline css.
 All the CSS for this theme is in the styles.scss file in the includes directory.
 
-#### Changing the Default Color
-In the styles.scss file in the includes directory, you can change the hex value of $theme-color to the color you would like your site to use.
-
-### Author Information
-Author information is present in the author.yml file in the _data folder. You can update the fields of that file as per your requirements.
-
-### Sidenav
-Sidenav can be updated from the navigation.yml file in the _data folder.
-
-## Writing Posts
-You can write posts just as you would in Jekyll, the only difference being that AMP has some strict guidelines on including external content.
-
-You cannot use Markdown format or normal HTML tags. AMP provides its own custom tags for images, videos etc...
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTE8sA4fwma3TXn8ipXrsaK0hyZKNgwQBe-HRmkj-Bczc7RgOjFjV8yrmdI2edVyKiJecEnRZXx8IJa/embed?start=true&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### Examples -
 
