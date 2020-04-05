@@ -7,9 +7,9 @@
 Spring과 다른 프론트엔드 Framework를 연결해 구축하는 방법을 공부하기 위함으로 선택하였습니다.<br>
 
 
-## 목차
-<실제 사용해보기>
+## 기능
 - [채팅](#채팅)
+  - [채팅방 생성/나가기/알람](#채팅)
 - [로그인 페이지](#로그인-페이지)
   - [회원가입](#로그인-페이지)
   - [회원가입 이메일 인증](#로그인-페이지)
@@ -37,7 +37,13 @@ Spring과 다른 프론트엔드 Framework를 연결해 구축하는 방법을 �
 - [끝으로](#끝)
 
 
+## 채팅
 ## 로그인 페이지
+## 마이 페이지
+## 프로젝트 페이지
+## 부가 메뉴
+## 사용 언어, 프레임워크
+## 끝으로
 
 AMP stands for [Accelerated Mobile Pages](https://www.ampproject.org/), a Google-backed project designed as an open standard for any publisher to have pages load quickly on mobile devices.
 
