@@ -9,8 +9,9 @@
 
 ## 주요 기술
 - 개인 프로젝트
+- framework : Spring, Angular 6 
 - 언어/문법 : JAVA, Typescript, JSON, HTML, CSS, REST API, JSON
-- 개발 Tool : Eclipse, Angular, Visual Studio Code, Apache Tomcat v8.5
+- 개발 Tool : Eclipse, Visual Studio Code, Apache Tomcat v8.5
 - DB액션 처리: JDBC, myBatis, Oracle
 
 <br>
