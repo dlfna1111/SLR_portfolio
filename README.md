@@ -8,11 +8,10 @@
 <br>
 
 ## 주요 기술
-- 검색 결과 데이터 요청 및 출력: Typescript, JSON
-- 웹 화면 구성: HTML, CSS, Tavascript
-- 결과를 얻어오기 위한 서버 액션: JAVA, REST API
-- DB액션 처리: JDBC, myBatis, Oracle
+- 개인 프로젝트
+- 언어/문법 : JAVA, Typescript, JSON, HTML, CSS, REST API
 - 개발 Tool : Eclipse, Angular, Visual Studio Code, Apache Tomcat v8.0
+- DB액션 처리: JDBC, myBatis, Oracle
 
 <br>
 <br>
@@ -88,7 +87,9 @@
   - 상세 내용
   - 체크리스트
   - 댓글
+  
   <br>
+  
 ![보드메모123](https://user-images.githubusercontent.com/58598810/78502625-fb1ff300-779c-11ea-9ab9-f2a793d7dbdd.gif)
 - 보드 생성, 삭제
 - 메모 드래그&드롭, 생성, 삭제
