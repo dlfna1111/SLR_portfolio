@@ -32,10 +32,7 @@ Web Service Developer (Backend, Frontend)
 <br>
 <br>
 
-## CONTACT
-- 이름 : 신이룸
-- e-mail : tdf5335@naver.com
-- phone : 010-5768-2494
+
 
 <br>
 
